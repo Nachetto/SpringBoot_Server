@@ -2,8 +2,6 @@ package com.hospitalcrud.dao.model;
 
 import lombok.*;
 
-
-
 @Getter
 @Setter
 @AllArgsConstructor
