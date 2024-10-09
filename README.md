@@ -6,7 +6,8 @@ Bienvenido a mi proyecto básico de API REST con **Spring Boot** y un frontend e
 
 Esta aplicación está diseñada usando una **arquitectura en capas**, enfocada en separar responsabilidades y mantener un código modular. Aunque la estructura podría mejorarse añadiendo controladores para adherirse completamente al patrón de capas, este proyecto demuestra los conceptos principales detrás del desarrollo de API, manejo de excepciones y creación de una interfaz que interactúa con la API.
 
-_[!TIP] Este proyecto es ideal para quienes están comenzando a explorar la arquitectura en capas y el desarrollo de APIs REST._  
+> [!TIP] 
+> Este proyecto es ideal para quienes están comenzando a explorar la arquitectura en capas y el desarrollo de APIs REST._  
 
 ## Tecnologías Utilizadas
 
@@ -21,7 +22,8 @@ _[!TIP] Este proyecto es ideal para quienes están comenzando a explorar la arqu
 - **Manejo de Excepciones Personalizadas**: El repositorio lanza excepciones que se gestionan en el nivel de la API REST con Exception Handlers.
 - **Frontend con Fetch API**: La interfaz gráfica en JavaScript se comunica con la API mediante `fetch`, gestionando códigos HTTP para proporcionar retroalimentación al usuario.
 
-_[!NOTE] El uso de listas estáticas para la persistencia hace que el proyecto sea simple, pero puede mejorarse usando una base de datos en futuras versiones._  
+> [!NOTE]
+> El uso de listas estáticas para la persistencia hace que el proyecto sea simple, pero puede mejorarse usando una base de datos en futuras versiones._  
 
 ## Estructura de Carpetas
 
@@ -35,7 +37,8 @@ _[!NOTE] El uso de listas estáticas para la persistencia hace que el proyecto s
 - **Capa de Controladores**: Para una mejor adherencia a la arquitectura de capas, sería recomendable añadir clases de controladores para separar adecuadamente los servicios de la capa de presentación.
 - **Persistencia de Datos**: Actualmente, los datos se almacenan en listas estáticas. Un próximo paso sería incorporar una base de datos para gestionar de forma adecuada la persistencia de los datos.
 
-_[!IMPORTANT] La ausencia de controladores implica duplicación de código en las clases REST, lo cual puede mejorarse en próximas iteraciones._  
+> [!IMPORTANT]
+> La ausencia de controladores implica duplicación de código en las clases REST, lo cual puede mejorarse en próximas iteraciones._  
 
 ## Instrucciones para Ejecutar el Proyecto
 
@@ -53,6 +56,7 @@ _[!IMPORTANT] La ausencia de controladores implica duplicación de código en la
 ## Descripción del Frontend
 El frontend en JavaScript es una interfaz sencilla que interactúa con la API usando llamadas fetch. Cada operación (GET, POST, PUT, DELETE) está asociada a un botón o formulario en la UI. Los resultados de las operaciones y los códigos HTTP se muestran en la interfaz para informar al usuario sobre el éxito o fallo de cada acción.
 
-[!WARNING] Es fundamental implementar un manejo de errores adecuado en el frontend para asegurar una buena experiencia de usuario. 
+> [!WARNING]
+> Es fundamental implementar un manejo de errores adecuado en el frontend para asegurar una buena experiencia de usuario. 
 ## Conclusión
 Este proyecto sirve como una demostración de mis habilidades en la creación de APIs REST con Java Spring Boot y en el desarrollo de interfaces de usuario funcionales con JavaScript. Si bien se pueden hacer muchas mejoras, como la adición de una capa de controladores y persistencia de datos con una base de datos, este proyecto muestra conceptos clave como manejo de excepciones, arquitectura en capas e interacción con APIs desde el frontend.
